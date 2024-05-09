@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #f2f2f2 ;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.photo{
+    display: flex;
+    width: 100;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.16),0 10px 10px  rgb(0,0,0,0.16);
+    background: #f2f2f2;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+}
+p{
+    text-align: center;
+    color: hwb(239 12% 13%);
+    padding-top: 0 8px;
+
+}
+h6{
+     font-size: 20px;
+    text-align: center;
+    color: hwb(0 7% 93%);
+    margin: 0;
+}
+button{
+    text-align: center;
+    font-size: 18px;
+    color: #f2f2f2;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #0bc20bdc;
+    
+}
+
+.checked{
+    color: rgb(251, 255, 0);
+}
